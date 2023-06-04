@@ -77,20 +77,5 @@ def SimpleRandomWalk(N, p, line):
     return None
 
 
-#Create a new figure to plot the random walk.
+#Create a new figure to plot th 
 plt.figure()
-
-#Function call to generate and plot the first random walk with circular markers and a dotted line.
-SimpleRandomWalk(N_steps, prob, line = 'o--')
-
-
-#Hold the first random walk on the plot.
-plt.hold(True)
-
-
-#Function call to generate and plot a second random walk using a full line.
-SimpleRandomWalk(N_steps, prob, line = '-')
-
-
-#Show both random walks on the plot.
-plt.show()
